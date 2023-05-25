@@ -1,0 +1,9 @@
+# AMM vs PMM  
+PMM is an algorithm designed to solve challenges faced with the AMM algorithm. The table below compares the features of both algorithms:  
+
+| **Features**  | **AMM**  | **PMM**  |  
+| --------------- | --------------- | --------------- |  
+| **Price Manipulation**  | AMM algorithms are susceptible to price manipulation by malicious entities that take advantage of limited liquidity to influence asset prices.  | PMM algorithms continuously track market conditions and modify prices in order to mitigate attempts at price manipulation. PMM algorithms make it more difficult for price manipulation to have a substantial influence by continuously supplying liquidity.  |  
+|  **Impermanent Loss**  | Impermanent loss, which happens when the value of the assets in a liquidity pool dramatically changes compared to the time of deposit, is a risk associated with AMM algorithms.  | By actively adjusting liquidity provision based on market conditions, PMM algorithms look to reduce impermanent losses. To minimise possible losses, it dynamically balances the distribution of assets in the liquidity pool.  |  
+| **Market Inefficiency**  | AMM algorithms may result in inefficient market pricing, particularly in unstable market situations or when there is a substantial imbalance between buying and selling pressure.  | By proactively modifying liquidity provision, PMM algorithms look to preserve stable conditions in the market. This makes market pricing more reliable and effective, especially during times of severe volatility. |  
+| **Slippage**  | Because there is little available liquidity in the pool, AMM algorithms can cause severe slippage, which is when the execution price of a trade differs greatly from the predicted price. | Algorithms used in PMM actively manage liquidity by dynamically altering pricing in response to market forces of supply and demand. As a result, slippage is reduced and transaction execution prices are improved. |  
